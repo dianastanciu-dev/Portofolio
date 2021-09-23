@@ -1,0 +1,72 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width", initial-scale=1.0> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<!--<link rel="stylesheet" href="gallery.css">-->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script language="javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<title></title>
+</head>
+<body>
+
+
+
+  
+    <br>
+    <ul id="filterOptions">
+        <li class="active"><a class="All">All</a></li>
+        <li><a class="HTML">HTML</a></li>
+        <li><a class="CSS">CSS</a></li>
+        <li><a class="Javascript">Javascript</a></li>
+        <li><a class="UI/UX">UI/UX Design</a></li>
+    </ul>
+
+
+<div id="ourHolder">
+<!--<section class="wrapper" id="index-gallery">-->    
+     <div class="container" class="item HTML"> 
+       <h1>HTML</h1>
+     </div>
+     
+     <div class="container" class="item UI/UX CSS">
+            <h1>UI/UX, CSS</h1>
+     </div>
+
+</div>
+
+
+<script>
+
+    $(document).ready(function() {
+        $('#filterOptions li a').click(function() {
+          // store anything commonly called in variables to speed up your code
+          const $this = $(this)
+          const ourClass = $this.attr('class');
+          const $ourHolder = $('#ourHolder');
+          // reset the active class on all the buttons
+          $('#filterOptions li').removeClass('active');
+          // update the active state on our clicked button
+          $this.parent().addClass('active');
+          
+          if (ourClass === 'All') {
+            // show all our items
+            $ourHolder.children('div.item').show(); 
+          } else {
+            // hide all elements that don't share ourClass
+            $ourHolder.children('div:not(.' + ourClass + ')').hide();
+            // show all elements that do share ourClass
+            $ourHolder.children('div.' + ourClass).show();
+          }
+          return false;
+        });
+      }); 
+    
+</script>
+
+</body>
+</html>

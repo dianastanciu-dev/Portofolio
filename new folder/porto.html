@@ -1,0 +1,572 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width", initial-scale=1.0> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<!--<link rel="stylesheet" href="gallery.css">-->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<title></title>
+</head>
+<body>
+
+
+    
+<section>
+    <ul class="navbar" class="wrapper-navbar">
+        <li><a href="porto.html" class="current">Web developer</a></li>
+        <li><a href="porto2.html">Coming soon</a></li>
+        <li><a href="porto3.html">Coming soon</a></li>
+      </ul>
+</section>
+
+
+<style>
+
+.wrapper-navbar{
+   margin: 0vw 30vw;
+}
+.navbar {
+margin: 0px auto;
+margin-top: 10vh!important;
+margin-bottom: 0!important;
+max-width: 600px;
+}
+
+ul {
+display: inline-block;
+list-style-type: none;
+margin: 0 auto;
+padding: 0;
+position: absolute; 
+
+}
+
+li {
+display: inline;
+/*float: left;*/
+margin: 0px; 
+}
+
+li a {
+display: inline-block;
+/*min-width: 170px;*/
+
+height: 30px;
+/*Box*/
+background: #211e1c;
+box-shadow: 1.5px 2px #2f3437;
+text-decoration: none;
+border-radius: 4px;
+/*Text*/
+text-align: center;
+padding: 20px 20px;
+color: #8A8A8A;
+font-size:  0.9em;
+font-weight: 500;
+text-align: center;
+line-height: 4px;
+text-transform: uppercase;
+}
+
+
+li a.current
+{
+  background: linear-gradient(0deg, #3f3f3f 50%, #424242 50%);
+  text-decoration: none;
+  color: #8A8A8A;
+}
+li a:hover
+{
+  background: linear-gradient(0deg, #3f3f3f 50%, #424242 50%);
+  text-decoration: none;
+  color: #8A8A8A;
+}
+
+
+</style>
+    <section class="aboutme">
+      
+        <div>
+            <h4>alert( 'Hello, world!' );</h4>
+            <p>
+               Freelancing, powered by lot of ambition, VS Code, HTML+CSS+Javascript to bring ideas to life 
+               
+            </p>
+           
+        </div>
+</section>
+
+
+<style>
+
+body{
+background-color:#211e1c!important;
+}    
+.aboutme{
+  background-color:#211e1c;
+}
+.aboutme h4{
+  text-align: center;
+  padding: 5vw 20vw 5vw 20vw;
+  color: #8A8A8A;
+  font-size: 2.5em;
+  font-weight: 600;
+  }
+.aboutme p{
+  text-align: center;
+  padding: 0 20vw 2vw 20vw;
+  color: #8A8A8A;
+  font-size:  1.3em;
+  margin-bottom: 0!important;
+}
+</style>
+
+<section>
+    <div class="filter-bullets">
+        <input type="radio" id="All" name="categories" value="All" checked>
+        <input type="radio" id="HTML" name="categories" value="HTML">
+        <input type="radio" id="CSS" name="categories" value="CSS">
+        <input type="radio" id="Javascript" name="categories" value="Javascript">
+        <input type="radio" id="UI/UX" name="categories" value="UI/UX Design">
+    </div>
+    
+    <ul class="wrapper-filter filter">
+        <li data-li="All" id="All" class="btn"><a href="#" class="current">All</a></li>
+        <li data-li="HTML" id="HTML" class="btn"><a href="#">HTML</a></li>
+        <li data-li="CSS" id="CSS" class="btn"><a href="#">CSS</a></li>
+        <li data-li="Javascript" id="Javascript" class="btn"><a href="#">Javascript</a></li>
+        <li data-li="UI/UX" id="UI/UX" class="btn"><a href="#">UI/UX Design</a></li>
+    </ul>
+
+
+    <br>
+    <p class="wrapper-filter filter-p">
+      Showing all projects. Use the filter to list them by skill or technology.
+    </p>
+  
+    <br>
+    <br>
+    <br>
+</section>
+
+<style>
+.filter-bullets{
+    display: none;
+}
+.wrapper-filter
+{
+    margin: 0 15vw!important;
+}
+.filter
+{
+    margin: 0px auto;
+    margin-top: 10vh!important;
+    margin-bottom: 20vh!important;
+    
+}
+.filter-p{
+    color: #8A8A8A;
+    font-size:  1em;
+}
+li a.current
+{
+  background: linear-gradient(0deg, #3f3f3f 50%, #424242 50%);
+  text-decoration: none;
+  color: #8A8A8A;
+}
+</style>
+
+<section class="wrapper" id="index-gallery">
+  
+<div class="container">
+    <div class="gr1">
+        <div class="gr1-item gr1-item0">
+            <img src="img/img1.jpg">
+        </div>
+        <div class="gr1-item gr1-item1">
+            <img src="img/img1.2.jpg">
+        </div>
+        <div class="gr1-item gr1-item2">
+            <img src="img/img1.1.jpg">
+        </div>
+       
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="gr2">
+        <div class="gr2-item">
+            
+            <div class="skill text text1" style="width:30vw; height: 20vw; margin-bottom: 20px;">   
+             <!---  <a>html, css, jquery</a>-->
+            </div>
+            <img src="img/img2.jpg" style=""> 
+        </div>
+        <div class="gr2-item gr2-item2">
+            <img src="img/img2.1.jpg" >
+        </div>
+    </div>
+</div>
+
+<div class="container" style="margin-top: 10vh;">
+    <div class="gr3">
+        <div class="gr3-item">
+            <img src="img/img3.jpg">
+        </div>
+        <div class="gr3-item gr3-item1 ">
+            <img src="img/img3.1.jpg">
+        </div>
+        <div class="gr3-item gr3-item2 ">
+            <img src="img/img3.2.jpg">
+        </div>
+    </div>
+</div>
+
+
+<div class="container" style="margin-top: 10vh;">
+    <div class="gr4">
+        <div class="gr4-item gr4-item0">
+            <img src="img/img4.jpg">
+        </div>
+        <div class="gr4-item gr4-item1">
+            <img src="img/img4.1.jpg">
+        </div>
+        <div class="gr4-item gr4-item2">
+            <img src="img/img4.2.jpg">
+        </div>
+       
+    </div>
+</div>
+
+<div class="container" style="margin-top: 10vh;">
+    <div class="gr5">
+        <div class="gr5-item gr5-item0">
+            <img src="img/img5.jpg">
+        </div>
+        <div class="gr5-item gr5-item1">
+            <img src="img/img5.1.jpg">
+        </div>
+        <div class="gr5-item gr5-item2">
+            <img src="img/img5.2.jpg">
+        </div>
+        <div class="gr5-item gr5-item3">
+            <img src="img/img5.3.jpg">
+        </div>
+       
+    </div>
+</div>
+</section>
+
+
+<style>
+
+.wrapper{
+   margin: 5vw 8vw;
+}
+   
+.container{
+   width: 100%;
+   max-width: 600px;
+   margin: 0;
+}
+
+.gr1{
+   display: grid;
+   grid-area: grid1;
+}
+
+.gr1-item0:hover{
+    position: relative;
+    z-index: 100;
+}
+
+.gr1-item1:hover{
+    position: relative;
+    z-index: 100;
+}
+
+.gr1-item2:hover{
+    position: relative;
+    z-index: 100;
+}
+
+.gr1-item img{
+    width: 30vw;
+}
+.gr1-item2 img{
+    width: 15vw;
+}
+
+
+.gr1-item:first-of-type{
+   grid-column: 2/span 2 ;
+   grid-row: 1/span 2;
+}
+
+.gr1-item:nth-of-type(2){
+   grid-column: 2/span 3 ;
+   grid-row: 3/span 3;
+}
+.gr1-item:last-of-type{
+   grid-column: 1/span 2 ;
+   grid-row: 2/span 2;
+}
+
+
+.gr2{
+    display: grid;
+    grid-area: grid2;
+}
+
+
+.gr2-item img{
+    width: 30vw;
+}
+.gr2-item2 img{
+    width: 15vw;
+}
+
+.gr2-item:first-of-type{
+   grid-column: 3/span 3;
+   grid-row: 1/span 2;
+}
+
+.gr2-item:last-of-type{
+   grid-column: 5/span 5;
+   grid-row: 2/span 2;
+
+}
+
+.gr2-item{
+    position: relative;
+}
+.skill{
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.gr2-item:hover {
+  position: relative;
+  z-index: 100;
+}
+
+.gr2-item2:hover {
+  position: relative;
+  z-index: 100;
+}
+
+.gr2-item div{
+  opacity: 0; 
+}
+
+.gr2-item div:hover{
+  opacity: 1; 
+}
+
+.gr3{
+   display: grid;
+   grid-area: grid3;
+}
+
+.gr3-item img{
+    width: 30vw;
+}
+.gr3-item1 img{
+    width: 15vw;
+}
+.gr3-item2 img{
+    width: 15vw;
+}
+
+
+.gr3-item:hover{
+    position: relative;
+    z-index: 100;
+}
+
+.gr3-item1:hover{
+    position: relative;
+    z-index: 100;
+}
+
+.gr3-item2:hover{
+    position: relative;
+    z-index: 100;
+}
+
+
+.gr3-item:first-of-type{
+   grid-column: 2/span 2 ;
+   grid-row: 1/span 2;
+}
+
+.gr3-item:nth-of-type(2){
+   grid-column: 1/span 2 ;
+   grid-row: 2/span 2;
+}
+.gr3-item:last-of-type{
+   grid-column: 3/span 3 ;
+   grid-row: 3/span 3;
+   margin-left: -10vw; 
+}
+
+.gr4{
+   display: grid;
+   grid-area: grid4;
+}
+
+.gr4-item0:hover{
+    position: relative;
+    z-index: 100;
+}
+
+.gr4-item1:hover{
+    position: relative;
+    z-index: 100;
+}
+
+.gr4-item2:hover{
+    position: relative;
+    z-index: 100;
+}
+
+.gr4-item img{
+    width: 30vw;
+}
+.gr4-item2 img{
+    width: 15vw;
+}
+
+
+.gr4-item:first-of-type{
+   grid-column: 1/span 2 ;
+   grid-row: 1/span 2;
+}
+
+.gr4-item:nth-of-type(2){
+   grid-column: 1/span 2 ;
+   grid-row: 3/span 3;
+}
+.gr4-item:last-of-type{
+   grid-column: 2/span 1 ;
+   grid-row: 2/span 2;
+}
+
+
+
+.gr5{
+   display: grid;
+   grid-area: grid5;
+}
+
+.gr5-item img{
+    width: 30vw;
+}
+.gr5-item1 img{
+    width: 30vw;
+}
+.gr5-item2 img{
+    width: 15vw;
+}
+.gr5-item3 img{
+    width: 15vw;
+}
+
+
+.gr5-item:hover{
+    position: relative;
+    z-index: 100;
+}
+
+.gr5-item1:hover{
+    position: relative;
+    z-index: 100;
+}
+
+.gr5-item2:hover{
+    position: relative;
+    z-index: 100;
+}
+
+.gr5-item3:hover{
+    position: relative;
+    z-index: 100;
+}
+
+.gr5-item:first-of-type{
+   grid-column: 1/span 2 ;
+   grid-row: 1/span 2;
+}
+
+.gr5-item:nth-of-type(2){
+   grid-column: 1/span 2 ;
+   grid-row: 5/span 6;
+}
+
+.gr5-item:nth-of-type(3){
+   grid-column: 1/span 2 ;
+   grid-row: 2/span 2;
+}
+
+.gr5-item:last-of-type{
+   grid-column: 2/span 3 ;
+   grid-row: 3/span 4;
+   margin-left: 5vw;
+ 
+}
+
+#index-gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 60px;
+    grid-template-areas: 
+    "grid1 grid2"
+    "grid1 grid2"
+    "grid3 grid4"
+    "grid3 grid4"
+    "grid5 grid6"
+    "grid5 grid6";
+    
+}
+
+@media screen and (max-width: 500px) {
+.wrapper{
+   margin: 0 5vw;
+}
+#index-gallery{
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "title"
+    "img1"
+    "img2"
+    "img3";
+}
+}
+</style>
+<script src="gallery.js"></script>
+</body>
+
+</html>

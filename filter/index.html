@@ -1,0 +1,100 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script language="javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+
+<style>
+
+/*- FILTER OPTIONS -*/
+ul#filterOptions {
+	width: 802px;
+	height: 52px;
+	margin: 30px 0;
+  overflow: hidden;
+  list-style-type: none;
+}
+ul#filterOptions li { height: 52px; margin-right: 2px; float: left; }
+ul#filterOptions li a {
+	height: 50px;
+	padding: 0 20px;
+	border: 1px solid #999;
+	background: #cfcfcf;
+	color: #fff;
+	font-weight: bold;
+	line-height: 50px;
+	text-decoration: none;
+	display: block;
+}
+ul#filterOptions li a:hover { background: #c9c9c9; }
+ul#filterOptions li.active a { background: #999; }
+/*- -*/
+/*- OUR DATA HOLDER -*/
+#ourHolder { width: 800px; height: 850px; overflow: hidden; }
+#ourHolder div.item {
+	width: 200px;
+	height: 200px;
+	float: left;
+	text-align: center;
+}
+#ourHolder div.item h3 { margin-top: 10px; font-size: 16px; line-height: 20px; }
+/*- -*/
+</style>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('#filterOptions li a').click(function() {
+		// fetch the class of the clicked item
+		var ourClass = $(this).attr('class');
+		
+		// reset the active class on all the buttons
+		$('#filterOptions li').removeClass('active');
+		// update the active state on our clicked button
+		$(this).parent().addClass('active');
+		
+		if(ourClass == 'all') {
+			// show all our items
+			$('#ourHolder').children('div.item').show();	
+		}
+		else {
+			// hide all elements that don't share ourClass
+			$('#ourHolder').children('div:not(.' + ourClass + ')').hide();
+			// show all elements that do share ourClass
+			$('#ourHolder').children('div.' + ourClass).show();
+		}
+		return false;
+	});
+});
+</script>
+
+</head>
+
+<body>
+
+<div id="container">
+  <ul id="filterOptions">
+    <li class="active"><a href="#" class="all">All</a></li>
+    <li><a href="#" class="html">HTML, CSS</a></li>
+    <li><a href="#" class="javascript">Javascript</a></li>
+    <li><a href="#" class="UI/UX">UI/UX Design</a></li>
+  </ul>
+  
+  <div id="ourHolder">
+  
+    <div class="item prem">
+      <img src="images/arsenal.jpg" alt="Arsenal" />
+      <h3>Arsenal</h3>
+    </div>
+  
+  
+    <div class="item league2">
+      <img src="images/burton-albion.jpg" alt="Burton Albion" />
+      <h3>Burton Albion</h3>
+    </div>
+       
+  </div>
+</div>
+
+</body>
+</html>
