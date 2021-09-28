@@ -1,0 +1,244 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width", initial-scale=1.0> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<link rel="stylesheet" href="gallery.css">
+
+</head>
+<body>
+
+  
+        <ul class="navbar" class="wrapper-navbar">
+            <li><a href="index.html" class="current">Web developer</a></li>
+            <li><a href="gallery.html">Coming soon</a></li>
+          </ul>
+
+<section class="wrapper" id="index-gallery">
+
+<h5>
+    Code laboratory
+</h5>
+      <div class="gallery-img img1">
+        <div><a href="#">Coming soon</a></div>
+      </div>
+
+      <div class="gallery-img img2">
+        <div><a href="#">Javascript Form Coding</a></div>
+      </div>
+
+      <div class="gallery-img img3">
+        <div><a href="#">Coming soon</a></div>
+      </div>
+
+      <div class="gallery-img img4">
+        <div><a href="#">Coding</a></div>
+      </div>
+
+      <div class="gallery-img img5">
+        <div><a href="#">Coming soon</a></div>
+      </div>
+
+      <div class="gallery-img img6">
+        <div><a href="#">Coming soon</a></div>
+      </div>
+
+      <div class="gallery-img img7">
+        <div><a href="#">Coming soon</a></div>
+      </div>
+
+      <div class="gallery-img img8">
+        <div><a href="#">Coming soon</a></div>
+      </div>
+
+      <div class="gallery-img img9">
+        <div><a href="#">Coming soon</a></div>
+      </div>
+    </section>
+
+
+
+<style>
+
+    *{
+    margin: 0;
+    padding: 0;
+    } 
+     a:hover{
+   color: #e29578;
+}
+
+
+.wrapper{
+   margin: 0 10vw;
+}
+
+.wrapper h5{
+    text-align: center;
+    text-transform: uppercase;
+    color:#b7b7a4;
+    margin: 5%;
+    letter-spacing: 6px;
+    
+}
+
+#index-gallery{
+    margin: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "title title title"
+    "img1 img2 img3"
+    "img4 img5 img5"
+    "img6 img5 img5"
+    "img7 img8 img9";
+}
+
+
+#index-gallery .gallery-img{
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+#index-gallery h5{
+    grid-area: title;
+}
+
+#index-gallery .img1{
+   grid-area: img1;
+   background-image: url(img/thumbs/img1.jpg);
+}
+
+
+#index-gallery .img2{
+   grid-area: img2;
+   background-image: url(img/thumbs/img2.jpg);
+}
+
+
+#index-gallery .img3{
+   grid-area: img3;
+   background-image: url(img/thumbs/img3.jpg);
+}
+
+
+#index-gallery .img4{
+   grid-area: img4;
+   background-image: url(img/thumbs/img4.jpg);
+}
+
+#index-gallery .img5{
+   grid-area: img5;
+   background-image: url(img/thumbs/img5.jpg);
+   height: 610px;
+   width: 100%;
+}
+
+#index-gallery .img6{
+   grid-area: img6;
+   background-image: url(img/thumbs/img6.jpg);
+}
+
+#index-gallery .img7{
+   grid-area: img7;
+   background-image: url(img/thumbs/img7.jpg);
+}
+
+#index-gallery .img8{
+   grid-area: img8;
+   background-image: url(img/thumbs/img8.jpg);
+}
+
+#index-gallery .img9{
+   grid-area: img9;
+   background-image: url(img/thumbs/img9.jpg);
+}
+.gallery-img div{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-img div:hover{
+    opacity: 0.7;
+    
+}
+
+.gallery-img a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+   
+}
+
+
+
+@media screen and (max-width: 500px) {
+header{
+   height: 170px;
+}
+
+header .header-brand2{
+   display:none;
+}
+
+header nav{
+   padding-top: 20px;
+   display: inline-block;
+   float: center;
+   margin-top:0!important;
+}
+
+header .header-brand{
+    letter-spacing: 8px;
+    }
+
+.wrapper{
+   margin: 0 5vw;
+}
+
+#index-gallery{
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "title"
+    "img1"
+    "img2"
+    "img3"
+    "img4"
+    "img5"
+    "img6"
+    "img7"
+    "img8"
+    "img9";
+}
+
+
+#index-gallery .img2{
+   background-image: url(img/thumbs/img2mobile.jpg);
+}
+
+#index-gallery .img5{
+   height: 300px;
+   width: 100%;
+}
+
+}
+</style>
+<!--<script src="js/gallery.js"></script>-->
+<script src="gallery.js"></script>
+
+</body>
+</html>
