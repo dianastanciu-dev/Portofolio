@@ -84,6 +84,7 @@ li a:hover {
     font-size: 20px;
     color: #8A8A8A;
     text-decoration: none;
+    position: fixed;
 }
 
 .github:hover {
