@@ -254,7 +254,8 @@ li a.current {
 }
 
 .wrapper {
-    margin: 5vw 8vw;
+    margin: 5vh 8vw;
+    /*CHANGE THIS*/
 }
 
 .container {
