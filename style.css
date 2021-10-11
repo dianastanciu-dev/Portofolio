@@ -1,3 +1,12 @@
+body, html{
+    background-color: transparent!important;
+}
+
+#particles-js{
+    height: 85vh;
+
+}
+
 .undoneweb {
     display: flex;
     margin-right: 0;
@@ -10,10 +19,11 @@
 }
 
 .navbar {
-    margin: 0px auto;
-    margin-top: 10vh!important;
+    margin: 0 auto;
+    margin-top: 5vh!important;
     margin-bottom: 0!important;
     max-width: 600px;
+    background-color: transparent!important;
 }
 
 ul {
@@ -22,6 +32,7 @@ ul {
     margin: 0 auto;
     padding: 0;
     position: static;
+    background-color: transparent!important;
 }
 
 li {
@@ -35,7 +46,6 @@ li a {
     /*min-width: 170px;*/
     height: 30px;
     /*Box*/
-    background: #211e1c;
     box-shadow: 1.5px 2px #2f3437;
     text-decoration: none;
     border-radius: 4px;
@@ -92,13 +102,16 @@ li a:hover {
     text-decoration: none;
 }
 
+
 body {
     background-color: #211e1c!important;
 }
 
 .aboutme {
-    background-color: #211e1c;
+    background-color: transparent;
+
 }
+
 
 .aboutme h4 {
     text-align: center;
@@ -230,6 +243,10 @@ div span:nth-child(4) {
 
 .filter-bullets {
     display: none;
+}
+
+.filter-quote{
+    margin-top: 15vh;
 }
 
 .wrapper-filter {

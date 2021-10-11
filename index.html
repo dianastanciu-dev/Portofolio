@@ -12,6 +12,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+    <script src="http://www.jsdelivr.com/#!particles.js"></script>
+ 
+
+
     <title></title>
 </head>
 
@@ -19,9 +23,23 @@
 
 
 
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    
+    <script>
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+    particlesJS.load('particles-js', 'particles.json',
+     function() {
+    console.log('particles.json loaded...');
+    });
+    </script>
+
+    
 
     <section class="aboutme" style="height: 100vh;">
-        <ul class="navbar" class="wrapper-navbar">
+        <div id="particles-js" >
+    
+        <ul class="navbar" >
             <li><a href="index.html" class="current">Web developer</a></li>
             <li><a href="gallery.html">Code laboratory</a></li>
         </ul>
@@ -43,12 +61,18 @@
         </div>
 
 
+
+
+
         <div class="scrolldown">
             <span class="scroll"></span>
             <span class="scroll"></span>
             <!--<span class="scroll"></span>-->
             <!--<span class="scroll"></span>-->
         </div>
+
+
+    </div> <!--particles tag-->    
     </section>
 
     <script>
@@ -65,11 +89,11 @@
         });
     </script>
 
-
+<div class="filter-quote">
     <p class="wrapper-filter filter-p">
         Showing all projects. Use the filter to list them by skill or technology.
     </p>
-
+</div>
 
     <div id="container" class="wrapper">
         <ul class="wrapper-filter filter" id="filterOptions">
@@ -238,7 +262,9 @@
             }
         }
     </style>
+
     <script src="gallery.js"></script>
+
 </body>
 
 </html>
