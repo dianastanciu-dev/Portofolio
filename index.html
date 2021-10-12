@@ -40,7 +40,8 @@
         <div id="particles-js" >
     
         <ul class="navbar" >
-            <li><a href="index.html" class="current">Web developer</a></li>
+            <li><a href="index.html" class="current" class="active">About me</a></li>
+            <li><a href="webDev.html">Web developer</a></li>
             <li><a href="gallery.html">Code laboratory</a></li>
         </ul>
 
@@ -57,179 +58,16 @@
             <p>
                 Hi, I'm Lara. Starting from some words or ideas, I aspire to create a simplistic design and the perfectly functional website for any client using code.
             </p>
-
         </div>
-
-
-
-
 
         <div class="scrolldown">
             <span class="scroll"></span>
             <span class="scroll"></span>
-            <!--<span class="scroll"></span>-->
-            <!--<span class="scroll"></span>-->
         </div>
 
-
+    
+  
     </div> <!--particles tag-->    
-    </section>
-
-    <script>
-        $(window).scroll(function() { //mycode
-            if ($(window).scrollTop() > 100) {
-                $(".scroll").hide("slow");
-            }
-        });
-
-        $(window).scroll(function() { //mycode
-            if ($(window).scrollTop() < 100) {
-                $(".scroll").show("slow");
-            }
-        });
-    </script>
-
-<div class="filter-quote">
-    <p class="wrapper-filter filter-p">
-        Showing all projects. Use the filter to list them by skill or technology.
-    </p>
-</div>
-
-    <div id="container" class="wrapper">
-        <ul class="wrapper-filter filter" id="filterOptions">
-            <li class="active"><a href="#" class="all">All</a></li>
-            <li><a href="#" class="html">HTML, CSS</a></li>
-            <li><a href="#" class="javascript">Javascript</a></li>
-            <li><a href="#" class="ui">UI/UX Design</a></li>
-        </ul>
-
-        <style>
-
-        </style>
-        <div id="ourHolder">
-
-
-            <div class="container all html ui" style="position: static!important;">
-
-                <div class="gr1">
-                    <div class="gr1-item gr1-item0">
-                        <img src="img/img1.jpg">
-                    </div>
-                    <div class="gr1-item gr1-item1">
-                        <img src="img/img1.2.jpg">
-                    </div>
-                    <div class="gr1-item gr1-item2">
-                        <img src="img/img1.1.jpg">
-                    </div>
-
-                </div>
-            </div>
-
-
-            <div class="container all html javascript">
-                <div class="gr2">
-                    <div class="gr2-item">
-                        <div class="skill text text1" style="width:30vw; height: 20vw; margin-bottom: 20px;">
-
-                        </div>
-                        <img src="img/img2.jpg">
-                    </div>
-                    <div class="gr2-item gr2-item2">
-                        <img src="img/img2.1.jpg">
-                    </div>
-                </div>
-            </div>
-            <a class="veziproiect" href="https://github.com/dianastanciu-dev/Easy-Staff-project">Github code</a>
-
-
-            <div class="container all html ui javascript" style="margin-top: 10vh;">
-                <div class="gr3">
-                    <div class="gr3-item">
-                        <img src="img/img3.jpg">
-                    </div>
-                    <div class="gr3-item gr3-item1 ">
-                        <img src="img/img3.1.jpg">
-                    </div>
-                    <div class="gr3-item gr3-item2 ">
-                        <img src="img/img3.2.jpg">
-                    </div>
-                </div>
-            </div>
-
-            <a class="veziproiect" href="https://github.com/dianastanciu-dev/Grand-Media_Print">Github code</a>
-
-
-            <div class="container all html ui" style="margin-top: 10vh;">
-                <div class="gr4">
-                    <div class="gr4-item gr4-item0">
-                        <img src="img/img4.jpg">
-                    </div>
-                    <div class="gr4-item gr4-item1">
-                        <img src="img/img4.1.jpg">
-                    </div>
-                    <div class="gr4-item gr4-item2">
-                        <img src="img/img4.2.jpg">
-                    </div>
-
-                </div>
-            </div>
-
-            <a class="veziproiect" href="https://github.com/dianastanciu-dev/Responsive-Design">Github code</a>
-
-
-
-
-
-            <div class="container all html javascript">
-                <div class="gr5">
-                    <div class="gr5-item">
-                        <div class="skill text text1" style="width:30vw; height: 20vw; margin-bottom: 20px;">
-
-                        </div>
-                        <img src="img/img5.jpg">
-                    </div>
-                    <div class="gr5-item gr5-item2">
-                        <img src="img/img5.2.jpg">
-                    </div>
-                </div>
-            </div>
-
-            <a class="veziproiect" href="https://drniknami.netlify.app/ ">Visit website</a>
-            <a class="veziproiect" href="https://github.com/dianastanciu-dev/Dr-Niknami-Houshang ">Github code</a>
-        </div>
-    </div>
-
-
-
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('#filterOptions li a').click(function(event) {
-                event.preventDefault();
-                // fetch the class of the clicked item
-                var ourClass = $(this).attr('class');
-
-                // reset the active class on all the buttons
-                $('#filterOptions li').removeClass('active');
-                // update the active state on our clicked button
-                $(this).parent().addClass('active');
-
-                if (ourClass == 'all') {
-                    // show all our items
-                    $('#ourHolder').children('div.container').show();
-                } else {
-                    // hide all elements that don't share ourClass
-                    $('#ourHolder').children('div:not(.' + ourClass + ')').hide();
-                    // show all elements that do share ourClass
-                    $('#ourHolder').children('div.' + ourClass).show();
-                }
-                //return false; similar cu event.preventDefault
-
-
-            });
-        });
-    </script>
-
-
 
     <div>
         <a class="CV" href="img/CV.png" download="CV.png"><img src="img/CV.png" style="display: none;" />
@@ -238,10 +76,25 @@
         </a>
     </div>
 
+</section>
 
-    </section>
+
+<script>
+    $(window).scroll(function() { //mycode
+        if ($(window).scrollTop() > 100) {
+            $(".scroll").hide("slow");
+        }
+    });
+
+    $(window).scroll(function() { //mycode
+        if ($(window).scrollTop() < 100) {
+            $(".scroll").show("slow");
+        }
+    });
+</script>
 
 
+   
     <style>
         .wrapper {
             margin: 5vw 8vw;
@@ -263,7 +116,7 @@
         }
     </style>
 
-    <script src="gallery.js"></script>
+ 
 
 </body>
 
