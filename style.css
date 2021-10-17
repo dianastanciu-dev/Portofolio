@@ -23,7 +23,6 @@ body, html{
     margin-top: 5vh!important;
     margin-bottom: 0!important;
     max-width: 600px;
-    /*background-color: transparent!important;*/
 }
 
 ul {
@@ -32,33 +31,13 @@ ul {
     margin: 0 auto;
     padding: 0;
     position: static;
-    /*background-color: transparent!important;*/
+    
 }
 
 li {
     display: inline;
-    /*float: left;*/
     margin: 0px;
 }
-
-/*      button navbar 
-li a {
-    display: inline-block;
-    height: 30px;
-    box-shadow: 1.5px 2px #2f3437;
-    text-decoration: none;
-    border-radius: 4px;
-    text-align: center;
-    padding: 20px 20px;
-    color: #8A8A8A;
-    font-size: 0.9em;
-    font-weight: 500;
-    text-align: center;
-    line-height: 4px;
-    text-transform: uppercase;
-    margin-top: 10px;
-}
-*/
 
 li a {
     display: inline-block;
@@ -298,11 +277,14 @@ div span:nth-child(4) {
     padding-right: 20px;
 }
 
-.wrapper {
+.wrapper-webDev {
     margin: 5vh 8vw;
     /*CHANGE THIS*/
 }
 
+.wrapper-gallery h5{
+    margin: auto;
+}
 
 
 .container {
@@ -331,7 +313,8 @@ div span:nth-child(4) {
     float: right;
     color: azure;
     margin: 40vh 10vw 45vh 10vw;
-    background-color: #323332;
+  /*background-color: #323332;*/
+    background-color: #2c2826;
     padding: 5vh 7vw;
     max-width: 500px;
     font-size: 1rem;
@@ -599,9 +582,18 @@ div span:nth-child(4) {
     .navbar {
         margin-top: 2vh!important;
     }
-    .wrapper {
+    .wrapper-webDev {
         margin: 0;
     }
+
+    .wrapper-gallery{
+        margin: 5vh 5vw!important;
+    }
+
+    .wrapper-gallery h5{
+        margin: auto;
+    }
+
     .filter-quote{
         margin: 5vh 0 2vh 0;
         display: flex;
