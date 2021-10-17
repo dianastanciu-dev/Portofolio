@@ -7,19 +7,19 @@ body, html{
 
 }
 
-.undoneweb {
-    display: flex;
-    margin-right: 0;
-    margin-top: 0;
-    width: 20%!important;
+.progress img{
+   display: flex;
+   float: right;
+
 }
 
+
 .wrapper-navbar {
-    margin: 0vw 30vw;
+    margin: 10vw 30vw;
 }
 
 .navbar {
-    margin: 0 auto;
+
     margin-top: 5vh!important;
     margin-bottom: 0!important;
     max-width: 600px;
@@ -183,6 +183,7 @@ body {
     display: flex;
     margin-top: 30vh;
     position: absolute;
+
 }
 
 .scrolldown {
@@ -270,7 +271,10 @@ div span:nth-child(4) {
 }
 
 .filter-quote{
-    margin-top: 15vh;
+    margin: 10vh 0 5vh 0;
+    display: flex;
+    float: left;
+        
 }
 
 .wrapper-filter {
@@ -286,12 +290,20 @@ div span:nth-child(4) {
 .filter-p {
     color: #8A8A8A;
     font-size: 1em;
+
+}
+
+
+.filter li{
+    padding-right: 20px;
 }
 
 .wrapper {
     margin: 5vh 8vw;
     /*CHANGE THIS*/
 }
+
+
 
 .container {
     width: 100%;
@@ -308,6 +320,21 @@ div span:nth-child(4) {
 .veziproiect:hover {
     color: azure;
     text-decoration: none;
+}
+
+
+.gr-details{
+   
+}
+
+.gr-details p{
+    float: right;
+    color: azure;
+    margin: 40vh 10vw 45vh 10vw;
+    background-color: #323332;
+    padding: 5vh 7vw;
+    max-width: 500px;
+    font-size: 1rem;
 }
 
 .gr1 {
@@ -610,6 +637,19 @@ div span:nth-child(4) {
         float: center;
         margin-top: 0!important;
     }
+
+    .gr-details{
+        display: flex;
+        flex-direction: column;
+        margin: 7vh 10vw;
+        float: center;
+
+    }
+
+    .gr-details p{
+        margin: 0; 
+    }
+
     .gr1-item:first-of-type {
         grid-column: 2/span 2;
         grid-row: 1/span 2;
