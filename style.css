@@ -602,6 +602,13 @@ div span:nth-child(4) {
     .wrapper {
         margin: 0;
     }
+    .filter-quote{
+        margin: 5vh 0 3vh 0;
+        display: flex;
+        float: left;
+            
+    }
+ 
     .filter {
         margin-top: 5vh!important;
         margin-bottom: 5vh!important;
