@@ -76,6 +76,17 @@ li a:hover {
     color:bisque;
 }
 
+.index-gallery h5{
+    grid-area: title;
+    color: #8A8A8A;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    margin: 10vh auto 5vh auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+   }
+
 
 /*right side Github link*/
 
