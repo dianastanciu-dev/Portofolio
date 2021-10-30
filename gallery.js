@@ -7,7 +7,7 @@ if(galleryImages){
         image.onclick = function(){
             let getElementCss = window.getComputedStyle(image);
             let getFullImgUrl = getElementCss.getPropertyValue("background-image");
-            let getImgUrlPos = getFullImgUrl.split("img/");
+            let getImgUrlPos = getFullImgUrl.split("img/thumbs");
             //alert(getFullImgUrl);
             let setNewImgUrl = getImgUrlPos[1].replace('")', '');
             //alert(setNewImgUrl);//replace works
@@ -84,7 +84,7 @@ if(changeDir === 0){
 }
 
 
-newImg.setAttribute("src", "img/img" + calcNewImg + ".jpg");
+newImg.setAttribute("src", "img/image" + calcNewImg + ".jpg");
 newImg.setAttribute("id", "current-img");
 
 getLatestOpenedImg = calcNewImg;
