@@ -5,3 +5,28 @@
     align-items: center;
 
 }
+
+.wrapper{
+    
+}
+
+.wrapper div{
+    margin: 5% 0;
+}
+
+.wrapper h2{
+    color: #8A8A8A;
+    font-weight: 500;
+    padding-left: 15%;
+    padding-bottom: 3%;
+    font-family: 'Portrait web',Georgia,sans-serif;
+    font-size: 44px;
+    line-height: 52px;
+    letter-spacing: -.5px;
+}
+
+.wrapper p{
+    color:#8A8A8A;
+    font-weight: 600;
+    padding: 0 20%;
+}
