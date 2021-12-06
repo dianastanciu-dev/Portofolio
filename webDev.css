@@ -20,10 +20,19 @@
    
 }
 
+
+@media (min-width: 600px){
+.quoteMobile{
+    display: none;
+}
+}
+
+
 @media (max-width: 600px){
     .quote img{
+      display: none;
+    }   
+    .quoteMobile img{
         width: 100vw;
-
-       
     }   
 }
