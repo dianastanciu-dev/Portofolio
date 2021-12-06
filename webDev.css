@@ -15,3 +15,15 @@
 
 }
 
+.quote img{
+    width: 40vw;
+    height: auto;
+    margin: 0!important;
+}
+
+@media (max-width: 600px){
+    .quote img{
+      display: none;
+       
+    }   
+}
