@@ -90,6 +90,62 @@ li a:hover {
 
 /*right side Github link*/
 
+.facebook img{
+    margin-top: 80vh;
+    margin-left: 2vw;
+    position: fixed;
+    
+    
+}
+
+.instagram img{
+    margin-top: 80vh;
+    margin-left: 4vw;
+    position: fixed;
+ 
+}
+
+@media (max-width: 500px){
+    .facebook img{
+        margin-left: 4vw;
+    }
+    
+    .instagram img{
+        margin-left: 12vw;
+    }
+}
+
+
+@media (min-width: 500px) and (max-width: 700px){
+    .facebook img{
+        margin-left: 4vw;
+    }
+    
+    .instagram img{
+        margin-left: 10vw;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 1200px){
+    .facebook img{
+        margin-left: 4vw;
+    }
+    
+    .instagram img{
+        margin-left: 8vw;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px){
+    .facebook img{
+        margin-left: 4vw;
+    }
+    
+    .instagram img{
+        margin-left: 7vw;
+    }
+}   
 .github {
     -webkit-transform: rotate(90deg);
     -webkit-transform-origin: left top;
