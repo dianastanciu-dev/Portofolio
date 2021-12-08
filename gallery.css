@@ -28,7 +28,7 @@
 
 #index-gallery h5{
     grid-area: title;
-    color: bisque;
+    color: #fdf5de;
     letter-spacing: 0.3rem;
     text-transform: uppercase;
     margin-bottom: 8vh;

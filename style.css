@@ -47,7 +47,7 @@ li a {
     text-align: center;
     /*color: #211e1c;*/
     /*color: #8A8A8A;*/
-    color: bisque;
+    color: #fdf5de;
     font-size: 0.9em;
     font-weight: 500;
     text-align: center;
@@ -62,20 +62,20 @@ li a {
 li a.current {
     /*background: linear-gradient(0deg, #3f3f3f 50%, #424242 50%);*/
     text-decoration: none;
-    color:bisque;
+    color: #fdf5de;
 }
 
 
 a:active {
     /*background: linear-gradient(0deg, #3f3f3f 50%, #424242 50%);*/
     text-decoration: none;
-    color:bisque;
+    color:#fdf5de;
 }
 
 li a:hover {
     /*background: linear-gradient(0deg, #3f3f3f 50%, #424242 50%);*/
     text-decoration: none;
-    color:bisque;
+    color:#fdf5de;
 }
 
 .index-gallery h5{
@@ -165,7 +165,7 @@ li a:hover {
     font-size: 20px;
     /*color: #211e1c;*/
     /*color: #8A8A8A;*/
-    color: bisque;
+    color: #fdf5de;
     text-decoration: none;
     position: fixed;
 }
@@ -381,7 +381,7 @@ div span:nth-child(4) {
 }
 
 .filter-p {
-    color: bisque;
+    color: #fdf5de;
     font-size: 1em;
 
 }
