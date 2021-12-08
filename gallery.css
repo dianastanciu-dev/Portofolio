@@ -1,5 +1,7 @@
 *, html, body{
-   background-color:#211e1c;
+
+   /*background-color:#211e1c;*/
+   background-color: #997b66;
 }
 
 #index-gallery{
@@ -26,7 +28,7 @@
 
 #index-gallery h5{
     grid-area: title;
-    color: #8A8A8A;
+    color: bisque;
     letter-spacing: 0.3rem;
     text-transform: uppercase;
     margin-bottom: 8vh;
