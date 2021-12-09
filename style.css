@@ -26,27 +26,24 @@ body, html{
 }
 
 ul {
-    display: inline-block;
+    display: flex;
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
-    position: static;
-    
+    /*position: static;*/
 }
 
 li {
-    display: inline;
+    display: flex;
     margin: 0px;
 }
 
 li a {
-    display: inline-block;
-    height: 30px;
+    display: flex;
+    height: 40px;
     text-decoration: none;
     border: none;
     text-align: center;
-    /*color: #211e1c;*/
-    /*color: #8A8A8A;*/
     color: #fdf5de;
     font-size: 0.9em;
     font-weight: 500;
@@ -56,7 +53,17 @@ li a {
     margin-top: 10px;
 }
 
+.navbar li a span{
+    position: relative;
+}
 
+.navbar svg{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 5px;
+
+
+}
 
 
 li a.current {
