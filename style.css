@@ -258,17 +258,47 @@ body {
     font-family: "Mada", sans-serif;
 }
 
-@media (max-width: 600px){
-.container-flip{
- 
+.flip-vegan::after{
+    background-image: url(./img/leaf.jpg);
+}
+
+.flip-servant::after{
+    background-image: url(./img/cat.jpg);
+}
+
+.flip-woman::after{
+    background-image: url(./img/woman.jpg);
+}
+
+.flip-mathematician::after{
+    background-image: url(./img/pi.jpg);
+}
+
+.flip-minimalist::after{
+    background-image: url(./img/minimal.jpg);
+}
+
+.flip-photophile::after{
+    background-image: url(./img/light.jpg);
+}
+
+.flip::after {
+    content: '';
+    display: inline-block;
+    -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
 }
 
 
+@media (max-width: 600px){
+    .container-flip{ /***********************alignment needed*********************/
+    }
+
     .container-flip span{
-        margin-top: 10vh;  
-     
-       
-        
+        margin-top: 10vh;      
     }
 
     .aboutme p{
