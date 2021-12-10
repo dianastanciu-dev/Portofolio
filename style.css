@@ -4,13 +4,6 @@ body, html{
 
 #particles-js{
     height: 85vh;
-
-}
-
-.progress img{
-   display: flex;
-   float: right;
-
 }
 
 
@@ -19,7 +12,6 @@ body, html{
 }
 
 .navbar {
-
     margin-top: 5vh!important;
     margin-bottom: 0!important;
     max-width: 600px;
@@ -61,34 +53,25 @@ li a {
     position: absolute;
     margin-top: 12px;
     margin-left: 5px;
-
-
 }
 
-
 li a.current {
-    /*background: linear-gradient(0deg, #3f3f3f 50%, #424242 50%);*/
     text-decoration: none;
     color: #fdf5de;
 }
 
-
 a:active {
-    /*background: linear-gradient(0deg, #3f3f3f 50%, #424242 50%);*/
     text-decoration: none;
     color:#fdf5de;
 }
 
 li a:hover {
-    /*background: linear-gradient(0deg, #3f3f3f 50%, #424242 50%);*/
     text-decoration: none;
     color:#fdf5de;
 }
 
 .index-gallery h5{
     grid-area: title;
-    /*color: #211e1c;*/
-    /*color: #8A8A8A;*/
     color: #fdf5de;
     text-transform: uppercase;
     letter-spacing: 0.3rem;
@@ -210,8 +193,6 @@ li a:hover {
     margin-top: -1px;
     border-top: 1px #997b66;
     border-right: 1px #997b66;
-
-
  }
 
 
@@ -230,7 +211,6 @@ body {
 
 .aboutme {
     background-color: transparent;
-
 }
 
 
