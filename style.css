@@ -497,6 +497,7 @@ div span:nth-child(4) {
         
 }
 
+
 .wrapper-filter {
     margin: 0 15vw!important;
 }
@@ -504,7 +505,7 @@ div span:nth-child(4) {
 .filter {
     margin: 0px auto;
     margin-bottom: 5vh!important;
-    margin-top: 0;
+   
 }
 
 .filter-p {
@@ -520,7 +521,6 @@ div span:nth-child(4) {
 
 .wrapper-webDev {
     margin: 5vh 8vw;
-    /*CHANGE THIS*/
 }
 
 .wrapper-gallery h5{
@@ -846,11 +846,6 @@ grid-column: 1/span 2;
         margin: 5vh 0 2vh 0;
         display: flex;
         float: left;            
-    }
- 
-    .filter {
-        margin-top: 5vh!important;
-        margin-bottom: 5vh!important;
     }
 
     .aboutme h1 {
