@@ -493,7 +493,7 @@ div span:nth-child(4) {
 .filter-quote{
     margin: 10vh 0 5vh 0;
     display: flex;
-    float: left;
+  
         
 }
 
@@ -505,7 +505,7 @@ div span:nth-child(4) {
 .filter {
     margin: 0px auto;
     margin-bottom: 5vh!important;
-   
+display: flex;   
 }
 
 .filter-p {

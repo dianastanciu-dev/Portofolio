@@ -12,8 +12,10 @@ ul#filterOptions {
 	width: 802px;
 	height: 52px;
 	margin: 30px 0;
-  overflow: hidden;
-  list-style-type: none;
+    /*overflow: hidden;*/
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
 }
 ul#filterOptions li { height: 52px; margin-right: 2px; float: left; }
 ul#filterOptions li a {
@@ -25,7 +27,8 @@ ul#filterOptions li a {
 	font-weight: bold;
 	line-height: 50px;
 	text-decoration: none;
-	display: block;
+	/*display: block;*/
+	display: flex;
 }
 ul#filterOptions li a:hover { background: #c9c9c9; }
 ul#filterOptions li.active a { background: #999; }
