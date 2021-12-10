@@ -1,3 +1,5 @@
+
+
 .webDev-title{
     display: flex;
     float: center;   
@@ -17,6 +19,7 @@
 .quote img{
     width: 40vw;
     height: auto;
+    margin-top: 12vh;
    
 }
 
