@@ -70,17 +70,6 @@ li a:hover {
     color:#fdf5de;
 }
 
-.index-gallery h5{
-    grid-area: title;
-    color: #fdf5de;
-    text-transform: uppercase;
-    letter-spacing: 0.3rem;
-    margin: 10vh auto 5vh auto;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-   }
-
 
 /*
 
@@ -167,44 +156,6 @@ li a:hover {
 
 
 
-#video{
-    object-fit: cover;
-    width: 100%;
-    height: 30%;
-    margin-bottom: 0!important;
-    position: absolute;
-    z-index: -1;
-    opacity: 1;
-}
-
-
-.video-container video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-  }
-
-
-.polygon:after {
-    background-color: #997b66;
-    /*background-color: #211e1c;*/
-    clip-path: polygon(0 0, 100% 0, 100% 70%, 77% 100%, 12% 42%, 0 60%);
-    margin-top: -1px;
-    border-top: 1px #997b66;
-    border-right: 1px #997b66;
- }
-
-
-.polygon:after {
-    height: 50px;
-    width: 100%;
-    content: '';
-    position: absolute;
-    
-}
-
-
 body {
     background-color: #997b66!important;
 }
@@ -281,8 +232,6 @@ body {
 
 
 @media (max-width: 600px){
-    .container-flip{ /***********************alignment needed*********************/
-    }
 
     .container-flip span{
         margin-top: 10vh;      
@@ -486,6 +435,84 @@ div span:nth-child(4) {
     text-transform: uppercase;
 }
 
+/****************************            SKILLS SECTION             *****************************/
+
+
+.index-gallery h5{  /* SKILLS title*/
+    grid-area: title;
+    color: #fdf5de;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin: 20vh auto 5vh 15vw;
+    display: flex;
+    align-content: center;
+    justify-content: left;
+   }
+
+
+.wrapper-skills{
+    margin: 0 15vw;
+}
+
+.skills span{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 50px;
+}
+
+.skills p{
+    color: #fdf5de;
+    font-size: 1.1em;
+    margin-top: 5vh;
+}
+
+.skills img{
+    margin: 30px;
+}
+
+@media (max-width: 700px){
+    .skills span{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        }
+ 
+    .skills img{
+        margin: 20px;
+        width: 45px;
+
+    }
+}
+
+/*******************************           WORK SECTION         **********************************/
+
+
+
+.index-gallery h5{
+    grid-area: title;
+    color: #fdf5de;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin: 20vh auto 5vh 15vw;
+    display: flex;
+    align-content: center;
+    justify-content: left;
+   }
+
+   .index-gallery h3{
+    grid-area: title;
+    color: #3D3129;
+    letter-spacing: 0.1rem;
+    margin: 2vh auto 0 15vw;
+    display: flex;
+    align-content: center;
+    justify-content: left;
+   }
+
+
 .filter-bullets {
     display: none;
 }
@@ -494,7 +521,6 @@ div span:nth-child(4) {
     margin: 10vh 0 5vh 0;
     display: flex;
 }
-
 
 .wrapper-filter {
     margin: 0 15vw!important;
@@ -508,8 +534,9 @@ div span:nth-child(4) {
 
 .filter-p {
     color: #fdf5de;
-    font-size: 1em;
-
+    font-size: 1.1em;
+    margin-top: 5vh!important;
+    margin-bottom: 5vh!important;
 }
 
 
@@ -606,8 +633,6 @@ div span:nth-child(4) {
     grid-row: 2/span 2;
 }
 
-
-                               
 .gr2 {
     display: grid;
     grid-area: grid2;
@@ -817,7 +842,7 @@ div span:nth-child(4) {
     opacity: 1;
 }
 
-*/
+
 
 #index-gallery {
     display: grid;
@@ -1014,5 +1039,46 @@ body, html {
         display: inline!important;
     }
     
+/*******************        FOOTER          *********************/
+
+.polygon:after {
+    background-color: #997b66;
+    /*background-color: #211e1c;*/
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 77% 100%, 12% 42%, 0 60%);
+    margin-top: -1px;
+    border-top: 1px #997b66;
+    border-right: 1px #997b66;
+ }
+
+
+.polygon:after {
+    height: 50px;
+    width: 100%;
+    content: '';
+    position: absolute;
     
+}
+
+    #video{
+        object-fit: cover;
+        width: 100%;
+        height: 30%;
+        margin-bottom: 0!important;
+        position: absolute;
+        z-index: -1;
+        opacity: 1;
+    }
+    
+    
+    .video-container video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+      }
+    
+    
+  
+    
+
 }
