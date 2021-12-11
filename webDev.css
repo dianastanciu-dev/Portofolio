@@ -20,6 +20,7 @@
     width: 40vw;
     height: auto;
     margin-top: 12vh;
+    
    
 }
 
@@ -36,6 +37,7 @@
       display: none;
     }   
     .quoteMobile img{
-        width: 100vw;
+        width: 90vw;
+        
     }   
 }
