@@ -245,7 +245,7 @@ body {
 .aboutme p{
     text-align: center;
     padding: 5vh 2vw!important;
-    margin-top: 30vh!important;
+    margin-top: 20vh;
     margin-left: 5vw;
     margin-right: 5vw;
   
@@ -342,7 +342,7 @@ body {
     color: #fdf5de;
     font-size: 1.3em;
     display: flex;
-    margin-top: 20vh!important;
+    margin-top: 30vh;
     position: absolute;
 
 }
