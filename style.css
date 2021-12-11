@@ -342,7 +342,7 @@ body {
     color: #fdf5de;
     font-size: 1.3em;
     display: flex;
-    margin-top: 30vh;
+    margin-top: 20vh!important;
     position: absolute;
 
 }
