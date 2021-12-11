@@ -1,11 +1,10 @@
 body, html{
-    background-color: transparent!important;
+    background-color: transparent!important; 
 }
 
 #particles-js{
     height: 85vh;
 }
-
 
 .wrapper-navbar {
     margin: 10vw 30vw;
@@ -22,7 +21,6 @@ ul {
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
-    /*position: static;*/
 }
 
 li {
@@ -38,7 +36,8 @@ li a {
     text-align: center;
     color: #fdf5de;
     font-size: 0.9em;
-    font-weight: 500;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     line-height: 4px;
     text-transform: uppercase;
@@ -142,8 +141,8 @@ li a:hover {
     left: 100%;
     white-space: nowrap;
     font-size: 20px;
-    /*color: #211e1c;*/
-    /*color: #8A8A8A;*/
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
     color: #fdf5de;
     text-decoration: none;
     position: fixed;
@@ -166,16 +165,18 @@ body {
 
 
 .aboutme p{
+    font-family: 'Caveat', cursive;
     text-align: center;
     padding: 0;
     color: #fdf5de;
-    font-size: 1em;
+    font-size: 2.2em!important;
     font-weight: 600;
     display: flex;
-    margin-top: 18vh;
+    margin-top: 15vh;
     margin-left: 15vw;
     margin-right: 0;
     position: absolute;
+
 }
 
 .container-flip span{
@@ -183,8 +184,9 @@ body {
     padding: 0;
     color: #fdf5de;
     font-size: 1em;
+    font-family: 'Caveat', cursive!important;
     font-weight: 600;
-    display: flex;
+    display: inline;
     margin-top: 5vh;
     margin-left: 0;
     margin-right: 0;
@@ -233,18 +235,21 @@ body {
 
 @media (max-width: 600px){
 
-    .container-flip span{
-        margin-top: 10vh;      
-    }
+.container-flip span{     
+    margin-top: 15vh;
+    justify-content: center;/*               NOT WORKING       */
+    margin-left: auto;
+    margin-right: auto;
+}
 
-    .aboutme p{
-        text-align: center;
-        padding: 0 2vw!important;
-        margin-top: 30vh!important;
-        margin-left: 5vw;
-        margin-right: 5vw;
-      
-    }
+.aboutme p{
+    text-align: center;
+    padding: 5vh 2vw!important;
+    margin-top: 30vh!important;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  
+}
 }
 
 .flip{
@@ -321,8 +326,6 @@ body {
 .aboutme h1{
     text-align: center;
     padding: 0;
-    /*color: #8A8A8A;*/
-    /*color: #211e1c;*/
     color: #997b66;
     font-size: 2.5em;
     font-weight: 600;
@@ -332,25 +335,12 @@ body {
     position: absolute;
 }
 
-.design {
-    margin-top: 55vh;
-}
-
-.prototype {
-    margin-top: 62vh;
-}
-
-.code {
-    margin-top: 69vh;
-}
 
 .aboutme p {
     text-align: center;
     padding: 0 20vw 2vw 20vw;
     color: #fdf5de;
-  /*color: #8A8A8A;*/
     font-size: 1.3em;
-    margin-bottom: 0!important;
     display: flex;
     margin-top: 30vh;
     position: absolute;
@@ -429,7 +419,8 @@ div span:nth-child(4) {
     padding: 20px 20px;
     color: #161413;
     font-size: 1em;
-    font-weight: 500;
+    font-weight: 600!important;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     line-height: 4px;
     text-transform: uppercase;
@@ -447,6 +438,8 @@ div span:nth-child(4) {
     display: flex;
     align-content: center;
     justify-content: left;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
    }
 
 
@@ -455,16 +448,22 @@ div span:nth-child(4) {
 }
 
 .skills span{
-display: flex;
-align-items: center;
-justify-content: center;
-margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.skills span img{
+    width: 60px;
 }
 
 .skills p{
     color: #fdf5de;
     font-size: 1.1em;
     margin-top: 5vh;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .skills img{
@@ -500,6 +499,8 @@ margin: 50px;
     display: flex;
     align-content: center;
     justify-content: left;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
    }
 
    .index-gallery h3{
@@ -510,6 +511,8 @@ margin: 50px;
     display: flex;
     align-content: center;
     justify-content: left;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
    }
 
 
@@ -518,8 +521,10 @@ margin: 50px;
 }
 
 .filter-quote{
-    margin: 10vh 0 5vh 0;
+    margin: 10vh 0 3vh 0;
     display: flex;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .wrapper-filter {
@@ -537,11 +542,18 @@ margin: 50px;
     font-size: 1.1em;
     margin-top: 5vh!important;
     margin-bottom: 5vh!important;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
 .filter li{
     padding-right: 20px;
+}
+
+.filter li a{
+    font-weight: 600!important;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .wrapper-webDev {
@@ -570,6 +582,8 @@ margin: 50px;
     padding: 0;
     margin: auto;
     display: flex;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .veziproiect:hover {
@@ -587,6 +601,9 @@ margin: 50px;
     padding: 5vh 5vw;
     max-width: 500px;
     font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+
 }
 
 .gr1 {
