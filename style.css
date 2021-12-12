@@ -246,8 +246,9 @@ body {
     text-align: center;
     padding: 5vh 2vw!important;
     margin-top: 20vh;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
   
 }
 }
