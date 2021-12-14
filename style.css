@@ -125,7 +125,8 @@ li a:hover {
     }
 }
 
-.github {
+
+.github-text { 
     -webkit-transform: rotate(90deg);
     -webkit-transform-origin: left top;
     -moz-transform: rotate(90deg);
@@ -136,7 +137,6 @@ li a:hover {
     -o-transform-origin: left top;
     transform: rotate(90deg);
     transform-origin: left top;
-    position: absolute;
     top: 10vh;
     left: 100%;
     white-space: nowrap;
@@ -148,12 +148,40 @@ li a:hover {
     position: fixed;
 }
 
-.github:hover {
+.github-text:hover {
     color: azure;
     text-decoration: none;
 }
 
+@media(max-width: 700px){
+    .github-text{
+        display: none;
+    }
+}
 
+
+.github { 
+    width: 35px;
+    top: 5vh;
+    left: 95%;
+    white-space: nowrap;
+    position: fixed;
+}
+
+@media (min-width: 700px){
+    .github{
+       display: none;
+    }
+}
+
+
+@media (max-width: 700px)
+{
+    .github{
+    top: 10vh;
+    left: 85%;
+    }
+}
 
 body {
     background-color: #997b66!important;
