@@ -455,8 +455,13 @@ div span:nth-child(4) {
     margin: 50px;
 }
 
-.skills span img{
+.skills span div{
     width: 60px;
+}
+
+.skills span img{
+    width: 55px;
+    justify-content: center;
 }
 
 .skills p{
@@ -467,8 +472,14 @@ div span:nth-child(4) {
     font-family: 'Montserrat', sans-serif;
 }
 
-.skills img{
+.skills div{
     margin: 30px;
+}
+
+.skills div p{
+    font-size: 1em;
+    justify-content: center;
+    display: flex;
 }
 
 @media (max-width: 700px){
@@ -480,7 +491,7 @@ div span:nth-child(4) {
         margin: 20px;
         }
  
-    .skills img{
+    .skills div{
         margin: 20px;
         width: 45px;
 
