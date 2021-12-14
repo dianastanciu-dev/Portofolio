@@ -70,23 +70,12 @@ li a:hover {
 }
 
 
-/*
-
-@media (min-width: 500px) and (max-width: 700px){
-    .facebook img{
-        margin-left: 4vw;   
-    }
-    .instagram img{
-        margin-left: 10vw;       
-    }
-}
-
 @media (min-width: 600px) and (max-width: 1200px){
     .facebook img{
-        margin-left: 4vw;
+        margin-left: 4vw!important;
     }
     .instagram img{
-        margin-left: 8vw;
+        margin-left: 8vw!important;
     }
 }
 
@@ -98,7 +87,7 @@ li a:hover {
         margin-left: 7vw;
     }
 } 
-*/
+
 
 .facebook img{
     margin-top: 150px;
@@ -115,16 +104,38 @@ li a:hover {
     z-index: 1;
 }
 
-@media (max-width: 500px){
+@media (max-width: 600px){
     .facebook img{
         margin-left: 4vw;
+        margin-top: 110px;        
+
     }
     
     .instagram img{
         margin-left: 12vw;
+        margin-top: 110px; 
     }
+
+    
 }
 
+.copyright{   
+    margin-top: 150px;
+    left: 50%;
+    margin-left: -200px;
+    position: absolute;
+    z-index: 1;
+    font-weight: 600;
+
+}
+
+@media (max-width: 700px)
+{
+    .copyright{  
+        margin-left: -170px; 
+    
+    } 
+}
 
 .github-text { 
     -webkit-transform: rotate(90deg);
@@ -157,6 +168,7 @@ li a:hover {
     .github-text{
         display: none;
     }
+
 }
 
 
@@ -480,11 +492,11 @@ div span:nth-child(4) {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 50px;
+   
 }
 
 .skills span div{
-    width: 60px;
+    width: 50px;
 }
 
 .skills span img{
