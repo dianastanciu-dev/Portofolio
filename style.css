@@ -596,6 +596,10 @@ div span:nth-child(4) {
     font-family: 'Montserrat', sans-serif;
 }
 
+.filter li a:hover{
+    color: #161413;
+}
+
 .wrapper-webDev {
     margin: 5vh 8vw;
 }
