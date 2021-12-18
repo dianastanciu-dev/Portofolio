@@ -486,20 +486,35 @@ div span:nth-child(4) {
     font-family: 'Montserrat', sans-serif;
    }
 
+   .progress-container {
+    height: 0.4rem;
+    width: 50px;
+    border-radius: 0.4rem;
+    background: #3D3129;  
+    margin: 0;
+    justify-self: center;
+}
+  
+  .progress-container .progress{
+    height: 100%;
+    width: 0;
+    border-radius: 0.4rem;
+    background: #77a0a9;
+    transition: width 0.4s ease;    
+  }
+ 
 
 .wrapper-skills{
     margin: 0 15vw;
 }
 
-.skills span{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
+.main-span-skills{
+    display: flex;   
 }
 
-.skills span div{
-    width: 50px;
+.main-div-skills{
+    width: 70px;
+    margin: 30px;
 }
 
 .skills span img{
@@ -513,25 +528,26 @@ div span:nth-child(4) {
     margin-top: 5vh;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
+
 }
 
-.skills div{
-    margin: 30px;
-}
 
 .skills div p{
     font-size: 1em;
-    justify-content: center;
     display: flex;
+    justify-content: center;
+    
+    
 }
 
 @media (max-width: 700px){
-    .skills span{
+    
+    .main-span-skills{
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        margin: 20px;
+        margin: 0;
         }
  
     .skills div{

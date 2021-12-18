@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width" , initial-scale=1.0>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@100&family=Raleway:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="webDev.css">
@@ -11,8 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@100&family=Raleway:wght@100&display=swap" rel="stylesheet">
-
+    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -127,50 +127,145 @@
     Half of time spent working on a website is coding. 90% is debugging. Here is what i use
 </p>
 
-<span >
 
-<div>
+
+<span class="main-span-skills">
+
+<div class="main-div-skills">
 <img alt="html5" src="https://icongr.am/devicon/html5-original.svg?size=128&color=9e6767" />
 <p>HTML5</p>
+          <div class="progress-container">
+          <span class="progress progressHtml"></span>
+          </div>
+          
 </div>
 
-<div>
+<div class="main-div-skills">
 <img alt="css3" src="https://icongr.am/devicon/css3-plain.svg?size=128&color=currentColor" />
 <p>CSS3</p>
+          <div class="progress-container">
+          <span class="progress progressCss"></span>
+          </div>
 </div>
 
-<div>
+<div class="main-div-skills">
 <img alt="javascript" src="https://icongr.am/devicon/javascript-original.svg?size=128&color=currentColor" />
 <p>JavaScript</p>
+          <div class="progress-container">
+          <span class="progress progressJavascript"></span>
+          </div>
+
 </div>
 
-<div>
+<div class="main-div-skills">
 <img alt="jquery" src="https://icongr.am/devicon/jquery-original.svg?size=128&color=currentColor" />
 <p>jQuery</p>
+          <div class="progress-container">
+          <span class="progress progressJquery"></span>
+          </div>
 </div>
 
-<div>
+<div class="main-div-skills">
 <img alt="react" src="https://icongr.am/devicon/react-original.svg?size=128&color=currentColor" />
 <p>React</p>
+          <div class="progress-container">
+          <span class="progress progressReact"></span>
+          </div>
 </div>
 
-<div>
+<div class="main-div-skills">
 <img alt="github" src="https://icongr.am/devicon/github-original.svg?size=128&color=currentColor" />
 <p>Github</p>
+          <div class="progress-container">
+          <span class="progress progressGithub"></span>
+          </div>
 </div>
 
-<div>
+<div class="main-div-skills">
 <img alt="trello" src="https://icongr.am/devicon/trello-plain-wordmark.svg?size=128&color=currentColor" />
 <p>Trello</p>
+          <div class="progress-container">
+          <span class="progress progressTrello"></span>
+          </div>
 </div>
 
-<div>
+<div class="main-div-skills">
 <img alt="photoshop" src="https://icongr.am/devicon/photoshop-plain.svg?size=128&color=currentColor" />
 <p>Photoshop</p>
+         <div class="progress-container">
+         <span class="progress progressPhotoshop"></span>
+         </div>
 </div>
 
 </span>
 </div>
+
+
+<script>
+    const progressbarHtml = document.querySelector(".progressHtml");
+    const progressbarCss = document.querySelector(".progressCss");
+    const progressbarJavascript = document.querySelector(".progressJavascript");
+    const progressbarJquery = document.querySelector(".progressJquery");
+    const progressbarReact = document.querySelector(".progressReact");
+    const progressbarGithub = document.querySelector(".progressGithub");
+    const progressbarTrello = document.querySelector(".progressTrello");
+    const progressbarPhotoshop = document.querySelector(".progressPhotoshop");
+
+
+
+    const changeProgressHtml = (progress) => {
+      progressbarHtml.style.width = `${progress}%`; //string interpolation
+    };      
+
+
+    const changeProgressCss = (progress) => {
+      progressbarCss.style.width = `${progress}%`; 
+    };    
+    
+    const changeProgressJavascript = (progress) => {
+      progressbarJavascript.style.width = `${progress}%`; 
+    };    
+
+    const changeProgressJquery = (progress) => {
+      progressbarJquery.style.width = `${progress}%`; 
+    }; 
+    
+    const changeProgressReact = (progress) => {
+      progressbarReact.style.width = `${progress}%`; 
+    }; 
+
+    const changeProgressGithub = (progress) => {
+      progressbarGithub.style.width = `${progress}%`; 
+    }; 
+
+    const changeProgressTrello = (progress) => {
+      progressbarTrello.style.width = `${progress}%`; 
+    };
+    
+    const changeProgressPhotoshop = (progress) => {
+      progressbarPhotoshop.style.width = `${progress}%`; 
+    };
+
+
+    setTimeout(() => changeProgressHtml(75), 1000);
+    //progressbar has width 75% after 1 sec
+    setTimeout(() => changeProgressCss(80), 1000);
+    //progressbar has width 80% after 1 sec
+    setTimeout(() => changeProgressJavascript(50), 1000);
+    setTimeout(() => changeProgressJquery(50), 1000);
+    setTimeout(() => changeProgressReact(25), 1000);
+    setTimeout(() => changeProgressGithub(70), 1000);
+    setTimeout(() => changeProgressTrello(70), 1000);
+    setTimeout(() => changeProgressPhotoshop(50), 1000);
+
+    
+
+
+
+
+   
+    </script>
+
 
 </section>
     
