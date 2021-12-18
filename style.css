@@ -492,7 +492,7 @@ div span:nth-child(4) {
     border-radius: 0.4rem;
     background: #3D3129;  
     margin: 0;
-    justify-self: center;
+    
 }
   
   .progress-container .progress{
@@ -510,11 +510,13 @@ div span:nth-child(4) {
 
 .main-span-skills{
     display: flex;   
+    
 }
 
 .main-div-skills{
     width: 70px;
     margin: 30px;
+    
 }
 
 .skills span img{
@@ -535,7 +537,7 @@ div span:nth-child(4) {
 .skills div p{
     font-size: 1em;
     display: flex;
-    justify-content: center;
+  
     
     
 }
@@ -546,7 +548,7 @@ div span:nth-child(4) {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
         margin: 0;
         }
  
