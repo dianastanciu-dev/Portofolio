@@ -208,7 +208,8 @@ body {
 
 
 .aboutme p{
-    font-family: 'Caveat', cursive;
+   /* font-family: 'Caveat', cursive;*/
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     padding: 0;
     color: #fdf5de;
@@ -227,7 +228,8 @@ body {
     padding: 0;
     color: #fdf5de;
     font-size: 1em;
-    font-family: 'Caveat', cursive!important;
+    /*font-family: 'Caveat', cursive!important;*/
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     display: inline;
     margin-top: 5vh;
@@ -238,7 +240,7 @@ body {
     opacity: 0;
     -webkit-animation: rotate-word 20s linear infinite;
     animation: rotate-word 20s linear infinite;
-    font-family: "Mada", sans-serif;
+   
 }
 
 .flip-vegan::after{
