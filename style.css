@@ -126,7 +126,7 @@ li a:hover {
     position: absolute;
     z-index: 1;
     font-weight: 600;
-    color: #2C2826;
+    color:  #fdf5de;
     font-family: 'Montserrat', sans-serif;
    
 
@@ -461,7 +461,7 @@ div span:nth-child(4) {
     text-align: center;
     opacity: 1;
     padding: 20px 20px;
-    color: #161413;
+    color:  #fdf5de;
     font-size: 1em;
     font-weight: 600!important;
     font-family: 'Montserrat', sans-serif;
