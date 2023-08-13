@@ -206,6 +206,20 @@ body {
     background-color: transparent;
 }
 
+.name{
+  /* font-family: 'Caveat', cursive;*/
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 0;
+  color: #fdf5de;
+  font-size: 1em;
+  font-weight: 600;
+  display: flex;
+  margin-top: 3vh;
+  margin-left: 15vw;
+  margin-right: 0;
+  position: absolute;  
+}
 
 .aboutme p{
    /* font-family: 'Caveat', cursive;*/
