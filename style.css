@@ -470,7 +470,8 @@ div span:nth-child(4) {
 }
 
 .CV {
-    display: inline-block;
+   /* display: inline-block;*/
+   display: flex;
     height: 30px;
     position: fixed;
     bottom: 0;
