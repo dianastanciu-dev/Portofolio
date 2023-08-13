@@ -212,7 +212,7 @@ body {
   text-align: center;
   color: #fdf5de;
   font-size: 2em!important;
-  font-weight: 800;
+  font-weight: 800!important;
   display: flex;
 
 }
