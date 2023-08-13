@@ -210,15 +210,10 @@ body {
   /* font-family: 'Caveat', cursive;*/
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  padding: 1em;
   color: #fdf5de;
   font-size: 1em;
-  font-weight: 600;
+  font-weight: 800;
   display: flex;
-  margin-top: 3vh;
-  margin-left: 15vw;
-  margin-right: 0;
-  position: absolute;  
 }
 
 .programmer{
