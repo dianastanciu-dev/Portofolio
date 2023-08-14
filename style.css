@@ -181,16 +181,18 @@ body {
     justify-content: left;
     height: 5vh;
     width: 70vw;
+    margin-bottom: 5vh;
 }
 
 .name{
-  /* font-family: 'Caveat', cursive;*/
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Caveat', cursive;
+  /*font-family: 'Montserrat', sans-serif;*/
   color: #fdf5de;
-  font-size: 1.5;
+  font-size: 3em!important;
   text-align: center;
-  font-weight: 800!important;
+  font-weight: 900;
   display: flex;
+
   
 
 }
