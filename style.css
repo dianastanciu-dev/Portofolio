@@ -441,7 +441,7 @@ div span:nth-child(4) {
 /****************************            SKILLS SECTION             *****************************/
 
 
-.index-gallery h5{  /* SKILLS title*/
+.index-gallery-title{  /* SKILLS title*/
     grid-area: title;
     color: #fdf5de;
     text-transform: uppercase;
@@ -494,8 +494,9 @@ div span:nth-child(4) {
 
 .skills p{
     color: #fdf5de;
-    font-size: 1.1em;
-    margin-top: 5vh;
+    font-size: 1em;
+    margin-top: 7vh;
+    margin-bottom: 3vh;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 
@@ -505,8 +506,7 @@ div span:nth-child(4) {
 .skills div p{
     font-size: 1em;
     display: flex;
-  
-    
+
     
 }
 
@@ -531,7 +531,7 @@ div span:nth-child(4) {
 
 
 
-.index-gallery h5{
+.index-gallery-title{
     grid-area: title;
     color: #fdf5de;
     text-transform: uppercase;
@@ -544,7 +544,7 @@ div span:nth-child(4) {
     font-family: 'Montserrat', sans-serif;
    }
 
-   .index-gallery h3{
+   .index-gallery-text{
     grid-area: title;
     color: #3D3129;
     letter-spacing: 0.1rem;
@@ -562,7 +562,7 @@ div span:nth-child(4) {
 }
 
 .filter-quote{
-    margin: 10vh 0 3vh 0;
+    margin: 3vh 0 3vh 0;
     display: flex;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
@@ -574,15 +574,14 @@ div span:nth-child(4) {
 
 .filter {
     margin: 0px auto;
-    margin-bottom: 5vh!important;
+    
   
 }
 
 .filter-p {
     color: #fdf5de;
-    font-size: 1.1em;
+    font-size: 1em;
     margin-top: 5vh!important;
-    margin-bottom: 5vh!important;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 }
@@ -593,8 +592,9 @@ div span:nth-child(4) {
 }
 
 .filter li a{
-    font-weight: 600!important;
+    font-weight: 600;
     font-family: 'Montserrat', sans-serif;
+
 }
 
 .filter li a:hover{
@@ -613,7 +613,7 @@ div span:nth-child(4) {
 .container {
     width: 100%;
     max-width: 600px;
-    margin-top: 15vh!important;
+    margin-top: 0!important;
     margin-bottom: 13vh;
 }
 
