@@ -525,6 +525,7 @@ div span:nth-child(4) {
         width: 60px;
 
     }
+    
 }
 
 /*******************************           WORK SECTION         **********************************/
@@ -617,6 +618,8 @@ div span:nth-child(4) {
 .container {
     width: 100%;
     margin-bottom: 13vh;
+    display: flex;
+    flex-direction: column;
 }
 
 div a{
@@ -764,15 +767,13 @@ body, html {
    
     .container {
         width: 100%;
-        max-width: 500px;
         margin-top: 0;
         display: flex;
         margin: auto;
+        flex-direction: column;
     }
 
-    .veziproiect {
-        margin-left:10vw;
-    }
+
 
     .gr-details{
         display: flex;
