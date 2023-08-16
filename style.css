@@ -139,9 +139,11 @@ li a:hover {
 
 .links { 
     bottom: 5vh;
+    top: auto;
     right: 5vh;
     white-space: nowrap;
     position: fixed;
+
 }
 .github{
     width: 40px; /*33*/
@@ -778,8 +780,11 @@ body, html {
 
     .links { 
         top: 15vh;
-        bottom: auto!important;
+        bottom: auto;
+        right: 1vh;
+    
     }
+   
 }
 
 @media screen and (max-width: 1000px) {
