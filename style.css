@@ -441,7 +441,7 @@ div span:nth-child(4) {
 /****************************            SKILLS SECTION             *****************************/
 
 
-.index-gallery-title{  /* SKILLS title*/
+.section-name-h5{  /* SKILLS title*/
     grid-area: title;
     color: #fdf5de;
     text-transform: uppercase;
@@ -531,7 +531,7 @@ div span:nth-child(4) {
 
 
 
-.index-gallery-title{
+.section-name-h5{
     grid-area: title;
     color: #fdf5de;
     text-transform: uppercase;
@@ -575,9 +575,11 @@ div span:nth-child(4) {
 
 
 .filter {
-    margin: 0px auto;
-    
-  
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+
 }
 
 .filter-p {
@@ -614,13 +616,12 @@ div span:nth-child(4) {
 
 .container {
     width: 100%;
-    max-width: 600px;
-    margin-top: 0!important;
     margin-bottom: 13vh;
 }
 
-.container a{
-    margin-top: 0px;
+div a{
+    display: flex;
+    justify-content: center;
 }
 
 .veziproiect {
@@ -631,6 +632,7 @@ div span:nth-child(4) {
     display: flex;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
+
 }
 
 .veziproiect:hover {
@@ -759,13 +761,7 @@ body, html {
         margin-top: 16vh;
     }
 
-    #index-gallery {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        grid-gap: 60px;
-        grid-template-areas: "grid1" "grid2" "grid3" "grid4" "grid5" "grid6";
-    }
+   
     .container {
         width: 100%;
         max-width: 500px;
@@ -774,11 +770,9 @@ body, html {
         margin: auto;
     }
 
-
     .veziproiect {
         margin-left:10vw;
     }
-    
 
     .gr-details{
         display: flex;
@@ -787,91 +781,32 @@ body, html {
         float: center;
 
     }
-
-    .gr-details p{
-        margin: 0; 
-    }
-
-    .gr1-item:first-of-type {
-        grid-column: 2/span 2;
-        grid-row: 1/span 2;
-        margin-bottom: 10px;
-    
-    }
-    .gr1-item:nth-of-type(2) {
-        grid-column: 2/span 3;
-        grid-row: 3/span 3;
-    }
-    .gr1-item:last-of-type {
-        /*
-        grid-column: 1.5/span 2;
-        grid-row: 2/span 2;
-    */
-        display: none;
-    }
-    .gr1-item img {
-        width: 90vw;
-    }
-
-
-
-    .gr3-item:first-of-type {
-        display: none;
-    }
- 
-    .gr3-item img {
-        width: 70vw;
-    }
-    .gr3-item1 img {
-        width: 40vw;
-    }
-    .gr3-item2 img {
-        width: 40vw;
-    }
-    .gr4-item {
-        display: flex;
-    }
-
-    .gr4-item img{
-        width: 60%!important;
-        margin: auto;
-        padding: 0!important;
-        
-
-   }
-    .gr4-item:nth-of-type(1) {
-        display: none;
-       
-    }
-  
- 
-    .gr4-item img {
-        width: 90vw;
-    }
-
-    .gr4-item4.2 img {
-        width: 55vw;
-    }
-
-    .gr4-item2 img {
-        width: 55vw;
-        padding-left: 15vw;
-    }
-    /*.gr4-item:nth-of-type(2) {
-        margin-top: 10px;
-    }*/
-
-    .gr5-item img {
-        width: 70vw;
-    }
-    .gr5-item2 img {
-        width: 40vw!important;
-    }
     .short-text {
         display: inline;
     }
     
 }
+
+@media screen and (max-width: 1000px) {
+
+    .wildflowers img{
+        width: 70vw;
+        margin: 5vh auto;
+    }
+    
+    .easystaff img{
+        display: flex;
+        width: 70vw;
+        margin: 5vh auto;
+    }
+    
+    .veganmenu img{
+        display: flex;
+        width: 70vw;
+        margin: 5vh auto;
+    }
+}
+
 
 
 /*******************        FOOTER          *********************/
